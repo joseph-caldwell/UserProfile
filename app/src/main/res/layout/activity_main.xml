@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#15E1E1"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/profile_picture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="@string/myprofile" />
+
+    <TextView
+        android:id="@+id/name"
+        style="@style/CustomFontStyleOne"
+        android:layout_marginTop="418dp"
+        android:text="@string/name"
+
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/birthday"
+        style="@style/CustomFontStyleOne"
+        android:layout_marginTop="480dp"
+        android:text="@string/b_day" />
+
+    <TextView
+        android:id="@+id/country"
+        style="@style/CustomFontStyleOne"
+        android:layout_marginTop="546dp"
+        android:text="@string/country" />
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomFontStyleOne">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">16sp</item>
+        <item name="android:capitalize">characters</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">#C835EA</item>/>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:padding">8sp</item>
+
+    </style>
+</resources>

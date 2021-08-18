@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">UserProfile</string>
+    <string name="name">Joseph Caldwell</string>
+    <string name="birthday">7/24/1970</string>
+    <string name="b_day">Birthday</string>
+    <string name="myprofile">myProfile</string>
+    <string name="country">Country</string>
+</resources>
